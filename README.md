@@ -7,4 +7,5 @@ ServiLink Pro Landing Page
 
 <div align="center">
 <b>A company in the first stages of operations</b>
+<p>ServiLink Pro &copy; Copyright 2023</p>
 </div>
