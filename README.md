@@ -6,6 +6,6 @@ ServiLink Pro Landing Page
 </h1>
 
 <div align="center">
-<b>Company in currently in the first stages of operations</b>
+<b>Currently in development</b>
 <p>ServiLink Pro &copy; Copyright 2023</p>
 </div>
