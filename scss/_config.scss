@@ -1,0 +1,9 @@
+$primary-color: #FF5252;
+$text-color: #e2e2e2;
+
+@mixin centerIt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

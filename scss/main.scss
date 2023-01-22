@@ -1,3 +1,32 @@
-body {
-  background-color: white;
+@import 'config';
+
+#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url('/assets/home/heroImage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  @include centerIt;
+  min-height: 60vh;
+
+  .hero-text-overlay {
+    @include centerIt;
+    color: $text-color;
+    text-align: center;
+    width: 100%;
+
+    .hero-heading {
+      margin: 40px 0;
+    }
+
+    .hero-subHeading {
+      font-size: 0.75rem;
+    }
+  }
+
 }
+
+
+
+@import 'responsive';
